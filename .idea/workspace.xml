@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c53e9e7-6063-4f8f-8160-aeeccc6b4d5b" name="Default Changelist" comment="" />
+    <list default="true" id="2c53e9e7-6063-4f8f-8160-aeeccc6b4d5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/authRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/passport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="20Q7aIO3HtIc20Tu0svAk16bOF0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -25,12 +47,20 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Node.js.index.js">
+  <component name="RunManager" selected="Node.js.index.js (1)">
+    <configuration name="authRoutes.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/routes/authRoutes.js" working-dir="$PROJECT_DIR$/routes">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/routes/index.js" working-dir="$PROJECT_DIR$/routes">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js (1)" />
+        <item itemvalue="Node.js.authRoutes.js" />
         <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
@@ -57,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635965019928</updated>
-      <workItem from="1635965029972" duration="1189000" />
+      <workItem from="1635965029972" duration="12455000" />
     </task>
     <servers />
   </component>
@@ -65,21 +95,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1771" height="318" key="GridCell.Tab.0.bottom" timestamp="1635965456794">
+    <state x="623" y="370" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1635997411330">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="318" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1635965456794" />
-    <state width="1771" height="318" key="GridCell.Tab.0.center" timestamp="1635965456792">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="623" y="370" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1635997411330" />
+    <state width="1899" height="372" key="GridCell.Tab.0.bottom" timestamp="1636017056469">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1771" height="318" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1635965456792" />
-    <state width="1771" height="318" key="GridCell.Tab.0.left" timestamp="1635965456791">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1899" height="372" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1636017056469" />
+    <state width="1771" height="372" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1636002846779" />
+    <state width="1379" height="318" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1635981522729" />
+    <state width="1899" height="372" key="GridCell.Tab.0.center" timestamp="1636017056468">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1771" height="318" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1635965456791" />
-    <state width="1771" height="318" key="GridCell.Tab.0.right" timestamp="1635965456793">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1899" height="372" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1636017056468" />
+    <state width="1771" height="372" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1636002846777" />
+    <state width="1379" height="318" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1635981522729" />
+    <state width="1899" height="372" key="GridCell.Tab.0.left" timestamp="1636017056467">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1771" height="318" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1635965456793" />
+    <state width="1899" height="372" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1636017056467" />
+    <state width="1771" height="372" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1636002846777" />
+    <state width="1379" height="318" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1635981522729" />
+    <state width="1899" height="372" key="GridCell.Tab.0.right" timestamp="1636017056468">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="372" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1636017056468" />
+    <state width="1771" height="372" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1636002846778" />
+    <state width="1379" height="318" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1635981522729" />
   </component>
 </project>
