@@ -7,14 +7,19 @@
     "npm": "8.1.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "server": "node index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "dependencies": {
+    "concurrently": "^6.3.0",
     "cookie-parser": "~1.4.4",
     "cookie-session": "^1.4.0",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "http-proxy-middleware": "^2.0.1",
     "mongoose": "^6.0.12",
     "morgan": "~1.9.1",
     "passport": "^0.5.0",
